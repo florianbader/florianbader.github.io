@@ -1,9 +1,9 @@
 links:
-- title: Writing
-  url: /
-- title: About
-  url: /about
-- title: Search
-  url: /search
-- title: Rss
-  url: /atom.xml
+  - title: Blog
+    url: /
+  - title: Über mich
+    url: /about
+  - title: Suche
+    url: /search
+  - title: Impressum
+    url: /imprint

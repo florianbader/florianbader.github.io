@@ -2,11 +2,28 @@
 layout: default
 ---
 
-<section class="posts">
-<ul>
-{% for post in site.posts %}
-<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
-{% endfor %}
-</ul>
-</section>
 
+<section class="posts">
+    <div class="welcome">
+        <h2>Hallo!</h2>
+        Hallo und willkommen auf meinem Blog. Hier berichte ich über alles, was mich so im Alltag beschäftigt, zu Themen
+        rund
+        um
+        Microsoft Azure, Microsoft .NET, IoT, DevOps und Web Development.
+    </div>
+
+    <h2>Beiträge</h2>
+    <ul>
+        {% if site.posts.length > 0 %}
+        {% for post in site.posts %}
+        {% if post.hidden != true %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time
+                datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time></li>
+        {% endif %}
+        {% endfor %}
+
+        {% else %}
+        Keine Beiträge vorhanden.
+        {% endif %}
+    </ul>
+</section>

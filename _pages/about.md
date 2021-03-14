@@ -1,28 +1,11 @@
 ---
 layout: page
-title: About
+title: Über mich
 ---
 
-Sidey is a simple and minimalistic jekyll blogging theme.
+# Florian Bader
 
-### Features
-
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Search
-- Tags & tag pages
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast (Only ~5kb of CSS)
-- Sidebar navigation
-
-### Screenshot
-
-![Screenshot](screenshot.png)
+![Florian Bader](assets/img/flo_200.png){: .about-portrait}
+Florian Bader ist Senior Consultant bei der AIT GmbH & Co. KG und wurde von Microsoft als Most Valuable Professional (MVP) für Azure und Developer Technologies ausgezeichnet. Er berät Kunden im Bereich Microsoft .NET, DevOps, Cloud und IoT mit Schwerpunkt in Softwareentwicklung und -architektur. Durch seine Erfahrung in der Industrie und sein breitgefächertes Wissen unterstützt er Unternehmen als Know-How-Lieferant in den unterschiedlichsten Bereichen.  
+<br />
+In seiner Freizeit beschäftigt er sich mit aktuellen technologischen Themen und engagiert sich in der Microsoft Community. Wenn er mal eine kleine Technik-Pause braucht, erkundet er mit seinem Rennrad das Neckartal.
