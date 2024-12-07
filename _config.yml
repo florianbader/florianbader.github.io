@@ -9,7 +9,7 @@ twitter:
 author:
   twitter: FlorianBaderDE
   name: FlorianBader
-  avatar:
+  avatar: /assets/images/flo.png
   email: me@florian-bader.de
   url: florian-bader.de
 permalink: pretty
@@ -32,7 +32,6 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 collections:
   pages:

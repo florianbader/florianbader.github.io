@@ -11,34 +11,12 @@
     "author":  {
         "name": "FlorianBader",
         "url": "florian-bader.de",
-        "avatar": null
+        "avatar": "/assets/images/flo.png"
     },
     
 "items": [
     
-        {
-            "id": "http://localhost:4000/2021/03/13/welcome",
-            "title": "Willkommen",
-            "summary": "Willkommen auf meinem Blog",
-            "content_text": "Willkommen auf meinem Blogvar x = \"test\";var y = new Dictionary&lt;string, bool&gt;();",
-            "content_html": "<p>Willkommen auf meinem Blog</p><div class=\"language-csharp highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"kt\">var</span> <span class=\"n\">x</span> <span class=\"p\">=</span> <span class=\"s\">\"test\"</span><span class=\"p\">;</span><span class=\"kt\">var</span> <span class=\"n\">y</span> <span class=\"p\">=</span> <span class=\"k\">new</span> <span class=\"n\">Dictionary</span><span class=\"p\">&lt;</span><span class=\"kt\">string</span><span class=\"p\">,</span> <span class=\"kt\">bool</span><span class=\"p\">&gt;();</span></code></pre></div></div>",
-            "url": "http://localhost:4000/2021/03/13/welcome",
-            
-            
-            
-            
-            
-            "date_published": "2021-03-13T00:00:00+01:00",
-            "date_modified": "2021-03-13T00:00:00+01:00",
-            
-                "author":  {
-                "name": "FlorianBader",
-                "url": "florian-bader.de",
-                "avatar": null
-                }
-                
-            
-        }
+        
     
     ]
 }

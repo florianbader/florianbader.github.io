@@ -3,15 +3,15 @@ layout: null
 ---
 [
   {% for post in site.posts %}
+    {% unless post.hidden %}
     {
-
       "title"    : "{{ post.title | strip_html | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "category" : "{{post.categories | join: ', '}}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}",
       "description" : "{{post.description | strip_html | strip_newlines | escape }}"
-
     } {% unless forloop.last %},{% endunless %}
+    {% endunless %}
   {% endfor %}
 ]
